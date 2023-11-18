@@ -1,0 +1,81 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px;
+            background-color: beige;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .profile_pic {
+            position:absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .profile_pic img {
+            width: 250px; /* Adjust the width as needed */
+            height: 250px; /* Adjust the height as needed */
+            margin: 100px 100px 0px 0px;
+            border: 2px solid #333;
+        }
+
+        h1, h2 {
+            color: #007BFF;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .education, .experience {
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            margin-bottom: 20px;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            margin-right: 10px;
+            margin-bottom: 5px;
+            padding: 5px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 50%; /* Adjust the width as needed */
+            margin: 20px; /* Add margin for better visibility */
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
